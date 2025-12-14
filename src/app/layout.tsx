@@ -45,6 +45,12 @@ export default function RootLayout({
             >
               Button
             </Link>
+            <Link
+              href="/sidebar"
+              className="w-full border-b hover:bg-black/10 cursor-pointer"
+            >
+              Sidebar
+            </Link>
           </div>
         </div>
         <div className="col-span-5 bg-white w-full h-full flex items-start justify-start pb-4 px-8 text-black pt-20">
